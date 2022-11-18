@@ -7,11 +7,11 @@
 		<version>2.7.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devsuperior</groupId>
-	<artifactId>dsmeta</artifactId>
+	<groupId>com.edilberto</groupId>
+	<artifactId>appconsultavendas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dsmeta</name>
-	<description>Projeto da Semana Spring React DevSuperior</description>
+	<name>appconsultavendas</name>
+	<description>Projeto da Semana Spring React</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
