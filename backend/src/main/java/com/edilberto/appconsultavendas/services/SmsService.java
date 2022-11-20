@@ -13,7 +13,7 @@ import com.twilio.type.PhoneNumber;
 
 @Service
 public class SmsService {
-
+/*
 	@Value("${twilio.sid}")
 	private String twilioSid;
 
@@ -47,4 +47,5 @@ public class SmsService {
 
 		System.out.println(message.getSid());
 	}
+*/
 }
