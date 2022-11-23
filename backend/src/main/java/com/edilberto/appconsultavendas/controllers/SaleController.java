@@ -30,10 +30,10 @@ public class SaleController {
 			Pageable pageable) {
 		return service.findSales(minDate, maxDate, pageable);
 	}
-	/*
+	
 	@GetMapping("/{id}/notification")
 	public void notifySms(@PathVariable Long id) {
-		smsService.sendSms();
+		smsService.sendSms(id);
 	}
-	*/
+	
 }

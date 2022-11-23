@@ -13,7 +13,7 @@ import com.twilio.type.PhoneNumber;
 
 @Service
 public class SmsService {
-/*
+
 	@Value("${twilio.sid}")
 	private String twilioSid;
 
@@ -35,7 +35,7 @@ public class SmsService {
 		
 		String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
 		
-		String msg = "Vnendedor" + sale.getSellerName() + " foi destaque em " + date
+		String msg = "Vnendedor: " + sale.getSellerName() + " foi destaque em " + date
 				+ " com um total de R$" + String.format("%.2f", sale.getAmount());
 		
 		Twilio.init(twilioSid, twilioKey);
@@ -47,5 +47,5 @@ public class SmsService {
 
 		System.out.println(message.getSid());
 	}
-*/
+
 }
